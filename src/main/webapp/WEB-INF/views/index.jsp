@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-메인
-푸시
+<a href="/login">로그인</a>
+<a href="/signup">회원가입</a>
 </body>
 </html>

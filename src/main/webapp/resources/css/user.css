@@ -1,0 +1,63 @@
+.logo_img {
+	margin: 20px;
+}
+
+.login-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 5px;
+	max-width: 400px;
+	padding: 40px;
+	border: 1px solid #c8c8c8;
+}
+
+.login-box a {
+	color: #c8c8c8;
+	font-size: 13px;
+}
+
+.user-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.user-table-input {
+	color: #c8c8c8;
+	border: none;
+	border-bottom: 1px solid #c8c8c8;
+	background-color: #222222;
+	height: 20px;
+}
+
+.user-table span {
+	color: #c8c8c8;
+	font-size: 12px;
+}
+
+.user-table-log{
+	height: 35px;
+}
+
+.user-table tr{
+	height: 30px;
+}
+
+.user-table td[colspan="2"]{
+	text-align: center;
+}
+
+.submit-btn {
+	width: 90%;
+	height: 35px;
+	margin-top: 15px;
+	background-color: #c8c8c8;
+	color: #222222;
+	border-radius: 10px;
+}
+
+.submit-btn:hover {
+	background-color: #858585;
+	cursor: pointer;
+}
