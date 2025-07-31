@@ -9,9 +9,52 @@ body {
 	color: #c8c8c8;
 }
 
+a {
+	text-decoration: none;
+	color: #c8c8c8;
+}
+
 .container {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	margin-top: 100px;
+}
+
+#logo_img {
+	margin: 30px;
+	float: left;
+}
+
+#member ul {
+	list-style: none;
+	padding: 30px;
+	float: right;
+}
+
+#member li {
+	display: inline-block;
+	margin: 5px 10px 0 10px;
+}
+
+#member a:hover {
+	text-decoration: underline;
+}
+
+#menu {
+	clear: both;
+}
+
+#menu table {
+	width: 100%;
+	margin-top: 35px;
+}
+
+#menu td {
+	padding: 25px 0 25px 35px;
+	font-size: 20px;
+}
+
+#menu td:hover {
+	background-color: #797979;
 }

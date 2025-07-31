@@ -14,7 +14,12 @@
 
 .login-box a {
 	color: #c8c8c8;
+	text-decoration: underline;
 	font-size: 13px;
+}
+
+.login-box a:hover {
+	cursor: pointer;
 }
 
 .user-form {
